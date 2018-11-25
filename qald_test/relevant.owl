@@ -1,0 +1,2751 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:lemon="http://www.monnet-project.eu/lemon#"
+     xmlns:dbpedia="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#"
+     xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#det -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#det"/>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dobj -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dobj"/>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#nsubj -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#nsubj"/>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#pobj -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#pobj"/>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#prep -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#prep"/>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#root -->
+
+    <owl:AnnotationProperty rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#root"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#aspect -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#aspect"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#directObject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#directObject"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#number -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#number"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeec -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeec"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveAdjunct -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveAdjunct"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalObject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalObject"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#subject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#subject"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#tense -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#tense"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#verbMood -->
+
+    <owl:AnnotationProperty rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#verbMood"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#canonicalForm -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#canonicalForm"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#decomposition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#decomposition"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#element -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#element"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#entry -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#entry"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#language -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#language"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#leaf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#leaf"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#marker -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#marker"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#objOfProp -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#objOfProp"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#optional -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#optional"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#otherForm -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#otherForm"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#phraseRoot -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#phraseRoot"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#propertyDomain -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#propertyDomain"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#propertyRange -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#propertyRange"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#reference -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#reference"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#sense -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#sense"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#subjOfProp -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#subjOfProp"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#synBehavior -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#synBehavior"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#writtenRep -->
+
+    <owl:AnnotationProperty rdf:about="http://www.monnet-project.eu/lemon#writtenRep"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivPPFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivPPFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#Particle -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#Particle"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame"/>
+    
+
+
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame -->
+
+    <owl:Class rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#LexicalEntry -->
+
+    <owl:Class rdf:about="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#Lexicon -->
+
+    <owl:Class rdf:about="http://www.monnet-project.eu/lemon#Lexicon"/>
+    
+
+
+    <!-- http://www.monnet-project.eu/lemon#Word -->
+
+    <owl:Class rdf:about="http://www.monnet-project.eu/lemon#Word"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#AutoRacingLeague -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#AutoRacingLeague">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">auto racing league</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/AutoRacingLeague"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacillus -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacillus">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
+                <lemon:writtenRep xml:lang="en">bacillus</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+                <lemon:writtenRep xml:lang="en">bacilli</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Bacteria"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacteria -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacteria">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">bacteria</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Bacteria"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bird -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bird">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">bird</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Bird"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#CarRacingLeague -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#CarRacingLeague">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">car racing league</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/AutoRacingLeague"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Conifer -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Conifer">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">conifer</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Conifer"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Germs -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Germs">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
+                <lemon:writtenRep xml:lang="en">germs</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+                <lemon:writtenRep xml:lang="en">germ</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Bacteria"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Hotel">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">hotel</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Hotel"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MMALeague -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MMALeague">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">MMA league</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/MixedMartialArtsLeague"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MixedMartialArtsLeague -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MixedMartialArtsLeague">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">mixed martial arts league</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/MixedMartialArtsLeague"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MountainPass -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MountainPass">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">mountain pass</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/MountainPass"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#NASCARDriver -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#NASCARDriver">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">NASCAR driver</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/NascarDriver"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Non-ProfitOrganisation -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Non-ProfitOrganisation">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">non-profit organisation</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/Non-ProfitOrganisation"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#RaceDriver -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#RaceDriver">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">race driver</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/FormulaOneRacer"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/NascarDriver"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#River -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#River">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">river</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/River"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#area -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#area">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">area</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2area"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/areaTotal"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1area"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2area"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1area"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#award -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#award">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">award</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1award"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/award"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2award"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1award"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2award"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#awarded -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#awarded">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">awarded</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1awarded"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/award"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2awarded"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1awarded"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2awarded"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#blast -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#blast">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">blast</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#blastOffFrom -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#blastOffFrom">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1blastOffFrom"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/associatedRocket"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2blastOffFrom"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2blastOffFrom"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1blastOffFrom"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#canonized -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#canonized">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">canonized</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2canonized"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/canonizedPlace"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1canonized"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1canonized"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2canonized"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#come -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#come">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">come</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#past"/>
+                <lemon:writtenRep xml:lang="en">came</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:aspect rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#perfective"/>
+                <lexinfo:verbMood rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#participle"/>
+                <lemon:writtenRep xml:lang="en">came</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeFrom -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeFrom">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">come</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:aspect rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#perfective"/>
+                <lexinfo:verbMood rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#participle"/>
+                <lemon:writtenRep xml:lang="en">came</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#past"/>
+                <lemon:writtenRep xml:lang="en">came</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeFrom"/>
+                <lemon:propertyDomain rdf:resource="http://dbpedia.org/ontology/Place"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/nationality"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1comeFrom"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeFrom"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/hometown"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1comeFrom"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivPPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeFrom"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1comeFrom"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeOutOn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeOutOn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">come out</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeOut"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/releaseDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1comeOut"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivPPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeOut"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1comeOut"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathDate -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathDate">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">death date</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2deathDate"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/deathDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1deathDate"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2deathDate"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1deathDate"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathPlace -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathPlace">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">death place</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2deathPlace"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/deathPlace"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1deathPlace"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2deathPlace"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1deathPlace"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieIn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieIn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeec rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">die</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2dieIn"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/deathPlace"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1dieIn"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2dieIn"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1dieIn"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieOn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieOn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeec rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">die</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2dieOn"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/deathDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1dieOn"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2dieOn"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1dieOn"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fightIn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fightIn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">fight</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#past"/>
+                <lemon:writtenRep xml:lang="en">fought</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:aspect rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#perfective"/>
+                <lexinfo:verbMood rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#participle"/>
+                <lemon:writtenRep xml:lang="en">fought</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fight"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/battle"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1fight"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fight"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1fight"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#preposition"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">from</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2from"/>
+                <lemon:propertyDomain rdf:resource="http://dbpedia.org/ontology/Place"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/nationality"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1from"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2from"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/hometown"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1from"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1from"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2from"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fuseInto -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fuseInto">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">fuse</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1fuseInto"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/musicFusionGenre"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fuseInto"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivPPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fuseInto"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1fuseInto"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#have -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#have">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">have</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">have</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveInfluenceOn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveInfluenceOn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:phraseRoot>
+            <rdf:Description>
+                <dbpedia:root>
+                    <rdf:Description>
+                        <dbpedia:dobj>
+                            <rdf:Description>
+                                <dbpedia:prep>
+                                    <rdf:Description>
+                                        <dbpedia:pobj>
+                                            <rdf:Description>
+                                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2haveInfluence"/>
+                                            </rdf:Description>
+                                        </dbpedia:pobj>
+                                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+                                    </rdf:Description>
+                                </dbpedia:prep>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#influence"/>
+                            </rdf:Description>
+                        </dbpedia:dobj>
+                        <dbpedia:nsubj>
+                            <rdf:Description>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1haveInfluence"/>
+                            </rdf:Description>
+                        </dbpedia:nsubj>
+                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#have"/>
+                    </rdf:Description>
+                </dbpedia:root>
+            </rdf:Description>
+        </lemon:phraseRoot>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2haveInfluence"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/influenced"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1haveInfluence"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveMusicBy -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveMusicBy">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:phraseRoot>
+            <rdf:Description>
+                <dbpedia:root>
+                    <rdf:Description>
+                        <dbpedia:dobj>
+                            <rdf:Description>
+                                <dbpedia:prep>
+                                    <rdf:Description>
+                                        <dbpedia:pobj>
+                                            <rdf:Description>
+                                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2haveMusicBy"/>
+                                            </rdf:Description>
+                                        </dbpedia:pobj>
+                                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#by"/>
+                                    </rdf:Description>
+                                </dbpedia:prep>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#music"/>
+                            </rdf:Description>
+                        </dbpedia:dobj>
+                        <dbpedia:nsubj>
+                            <rdf:Description>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1haveMusicBy"/>
+                            </rdf:Description>
+                        </dbpedia:nsubj>
+                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#have"/>
+                    </rdf:Description>
+                </dbpedia:root>
+            </rdf:Description>
+        </lemon:phraseRoot>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2haveMusicBy"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/musicBy"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1haveMusicBy"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#height -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#height">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">height</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2height"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/height"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1height"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2height"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1height"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#highestRegion -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#highestRegion">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">highest region</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2highestRegion"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/highestRegion"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1highestRegion"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2highestRegion"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1highestRegion"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeArena -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeArena">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">home arena</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeArena"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/homeArena"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeArena"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeArena"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeArena"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeCountry -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeCountry">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">home country</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeCountry"/>
+                <lemon:propertyRange rdf:resource="http://dbpedia.org/ontology/Country"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/nationality"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeCountry"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeCountry"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeCountry"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeTown -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeTown">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">home town</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeTown"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/hometown"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeTown"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1homeTown"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2homeTown"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#influence -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#influence">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">influence</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">influence</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2influence"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/influenced"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1influence"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2influence"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1influence"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launch -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launch">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">launch</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launchOffFrom -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launchOffFrom">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1launchOff"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/associatedRocket"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launchOff"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveFrame"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launchOff"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1launchOff"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launched -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launched">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">launched</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launched"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/launchDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1launched"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1launched"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launched"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#lexicon -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#lexicon">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Lexicon"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#AutoRacingLeague"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacillus"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bacteria"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Bird"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#CarRacingLeague"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Conifer"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Germs"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#Hotel"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MMALeague"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MixedMartialArtsLeague"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#MountainPass"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#NASCARDriver"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#RaceDriver"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#River"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#area"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#award"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#awarded"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#blastOffFrom"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#canonized"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeFrom"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#comeOutOn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathDate"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#deathPlace"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieIn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#dieOn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fightIn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#fuseInto"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveInfluenceOn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#haveMusicBy"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#height"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#highestRegion"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeArena"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeCountry"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#homeTown"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#influence"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launchOffFrom"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#launched"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#madeOf"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manage"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manager"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#mean"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meaning"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltAt"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltingPoint"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#opened"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#openingFilm"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patron"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patronSaint"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#placeOfDeath"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#playFor"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#player"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postCode"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postalCode"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#programmingLanguage"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publish"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publisher"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#raceFor"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#receive"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#rector"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releaseDate"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releasedOn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#require"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#requirement"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#serveIn"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#structuralSystem"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#takeOffFrom"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#team"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#totalArea"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weigh"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weight"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#win"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writeTheMusicFor"/>
+        <lemon:entry rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writtenIn"/>
+        <lemon:language>en</lemon:language>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#madeOf -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#madeOf">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">made</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2madeOf"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/structuralSystem"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1madeOf"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1madeOf"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2madeOf"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manage -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manage">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">manage</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2manage"/>
+                <lemon:propertyDomain rdf:resource="http://dbpedia.org/ontology/SportsManager"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1manage"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2manage"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1manage"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manager -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#manager">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">manager</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2manager"/>
+                <lemon:propertyDomain rdf:resource="http://dbpedia.org/ontology/SportsManager"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1manager"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1manager"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2manager"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#mean -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#mean">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">mean</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2mean"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/meaning"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1mean"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2mean"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1mean"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meaning -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meaning">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">meaning</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2meaning"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/meaning"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1meaning"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2meaning"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1meaning"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltAt -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltAt">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">melt</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2melt"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/meltingPoint"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1melt"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2melt"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1melt"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltingPoint -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#meltingPoint">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">melting point</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2meltingPoint"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/meltingPoint"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1meltingPoint"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2meltingPoint"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1meltingPoint"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#off -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#off">
+        <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Particle"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">off</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#opened -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#opened">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">opened</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2opened"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/dateUse"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1opened"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1opened"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2opened"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#openingFilm -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#openingFilm">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">opening film</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2openingFilm"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/openingFilm"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1openingFilm"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2openingFilm"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1openingFilm"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#out -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#out">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#particle"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">out</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patron -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patron">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">patron</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2patron"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/patron"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1patron"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2patron"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1patron"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patronSaint -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#patronSaint">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">patron saint</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2patronSaint"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/patron"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1patronSaint"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2patronSaint"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1patronSaint"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#placeOfDeath -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#placeOfDeath">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#singular"/>
+                <lemon:writtenRep xml:lang="en">place of death</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:otherForm>
+            <rdf:Description>
+                <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+                <lemon:writtenRep xml:lang="en">places of death</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:otherForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2placeOfDeath"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/deathPlace"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1placeOfDeath"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2placeOfDeath"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1placeOfDeath"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#playFor -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#playFor">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">play</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2playFor"/>
+                <lemon:propertyDomain>
+                    <rdf:Description/>
+                </lemon:propertyDomain>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1playFor"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2playFor"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1playFor"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#player -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#player">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">player</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2player"/>
+                <lemon:propertyDomain>
+                    <rdf:Description/>
+                </lemon:propertyDomain>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1player"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1player"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2player"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postCode -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postCode">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">post code</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1postCode"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/postalCode"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2postCode"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1postCode"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2postCode"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postalCode -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#postalCode">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">postal code</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1postalCode"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/postalCode"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2postalCode"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1postalCode"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2postalCode"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#programmingLanguage -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#programmingLanguage">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">programming language</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2programmingLanguage"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/programmingLanguage"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1programmingLanguage"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2programmingLanguage"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1programmingLanguage"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publish -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publish">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">publish</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1publish"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/publisher"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2publish"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2publish"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1publish"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publisher -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#publisher">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">publisher</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2publisher"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/publisher"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1publisher"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2publisher"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1publisher"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#raceFor -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#raceFor">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">race</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2raceFor"/>
+                <lemon:propertyDomain>
+                    <rdf:Description/>
+                </lemon:propertyDomain>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1raceFor"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2raceFor"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1raceFor"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#receive -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#receive">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">receive</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2receive"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/award"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1receive"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2receive"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1receive"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#rector -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#rector">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">rector</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2rector"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/rector"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1rector"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2rector"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1rector"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releaseDate -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releaseDate">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">release date</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2releaseDate"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/releaseDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1releaseDate"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2releaseDate"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1releaseDate"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releasedOn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#releasedOn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">released</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2released"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/releaseDate"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1released"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1released"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2released"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#require -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#require">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">require</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2require"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/requirement"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1require"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2require"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1require"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#requirement -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#requirement">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">requirement</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2requirement"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/requirement"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1requirement"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2requirement"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1requirement"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#serveIn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#serveIn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">serve</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2serve"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/battle"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1serve"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2serve"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1serve"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#structuralSystem -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#structuralSystem">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">structural system</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2structuralSystem"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/structuralSystem"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1structuralSystem"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2structuralSystem"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1structuralSystem"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#take -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#take">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">take</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#takeOffFrom -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#takeOffFrom">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1takeOffFrom"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/associatedRocket"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2takeOffFrom"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2takeOffFrom"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1takeOffFrom"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#team -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#team">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">team</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2team"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/team"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1team"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2team"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1team"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#totalArea -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#totalArea">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">total area</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2totalArea"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/areaTotal"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1totalArea"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2totalArea"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1totalArea"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weigh -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weigh">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">weigh</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2weigh"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/weight"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1weigh"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2weigh"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1weigh"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weight -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#weight">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#noun"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">weight</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2weight"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/weight"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1weight"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame"/>
+                <lexinfo:copulativeArg rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2weight"/>
+                <lexinfo:possessiveAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1weight"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#win -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#win">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">win</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2win"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/award"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1win"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame"/>
+                <lexinfo:directObject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2win"/>
+                <lexinfo:subject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1win"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#write -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#write">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#Word"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#verb"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">write</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writeTheMusicFor -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writeTheMusicFor">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lemon:decomposition>
+            <rdf:Description/>
+        </lemon:decomposition>
+        <lemon:phraseRoot>
+            <rdf:Description>
+                <dbpedia:root>
+                    <rdf:Description>
+                        <dbpedia:dobj>
+                            <rdf:Description>
+                                <dbpedia:det>
+                                    <rdf:Description>
+                                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#the"/>
+                                    </rdf:Description>
+                                </dbpedia:det>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#music"/>
+                            </rdf:Description>
+                        </dbpedia:dobj>
+                        <dbpedia:nsubj>
+                            <rdf:Description>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2writeTheMusicFor"/>
+                            </rdf:Description>
+                        </dbpedia:nsubj>
+                        <dbpedia:prep>
+                            <rdf:Description>
+                                <dbpedia:pobj>
+                                    <rdf:Description>
+                                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1writeTheMusicFor"/>
+                                    </rdf:Description>
+                                </dbpedia:pobj>
+                                <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#for"/>
+                            </rdf:Description>
+                        </dbpedia:prep>
+                        <lemon:leaf rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#write"/>
+                    </rdf:Description>
+                </dbpedia:root>
+            </rdf:Description>
+        </lemon:phraseRoot>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2writeTheMusicFor"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/musicBy"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1writeTheMusicFor"/>
+            </rdf:Description>
+        </lemon:sense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writtenIn -->
+
+    <owl:NamedIndividual rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#writtenIn">
+        <rdf:type rdf:resource="http://www.monnet-project.eu/lemon#LexicalEntry"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#adjective"/>
+        <lemon:canonicalForm>
+            <rdf:Description>
+                <lemon:writtenRep xml:lang="en">written</lemon:writtenRep>
+            </rdf:Description>
+        </lemon:canonicalForm>
+        <lemon:sense>
+            <rdf:Description>
+                <lemon:objOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2writtenIn"/>
+                <lemon:reference rdf:resource="http://dbpedia.org/ontology/programmingLanguage"/>
+                <lemon:subjOfProp rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1writtenIn"/>
+            </rdf:Description>
+        </lemon:sense>
+        <lemon:synBehavior>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame"/>
+                <lexinfo:copulativeSubject rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1writtenIn"/>
+                <lexinfo:prepositionalAdjunct rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2writtenIn"/>
+            </rdf:Description>
+        </lemon:synBehavior>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <lemon:element rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#out"/>
+    </rdf:Description>
+    <rdf:Description>
+        <lemon:element rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#come"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg1openingFilm">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#at"/>
+        <lemon:optional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lemon:optional>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2awarded">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#to"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2blastOffFrom">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2canonized">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#in"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeFrom">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2comeOut">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2die">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#in"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2dieOn">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fight">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#in"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2fuseInto">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#into"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launchOffFrom">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2launched">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2madeOf">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#of"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2melt">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#at"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2opened">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2playFor">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#for"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2player">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#of"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2raceFor">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#for"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2released">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#on"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2serve">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#in"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2takeOffFrom">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#from"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#arg2written">
+        <lemon:marker rdf:resource="http://sc.cit-ec.uni-bielefeld.de/lexica/dbpedia#in"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

@@ -1,24 +1,22 @@
-# import fscore
+import evaluation
 
-# gold = [1,2,34,52,3,4,56,2,1,4,53,6]
-# test = [1,2,34,52,3,0,56,2,1,4,5,36,43]
+print ("OntoRisco:")
 
-# pre = fscore.precision(gold, test)
-# rec = fscore.recall(gold, test)
+evaluation.evalues('ontorisco')
 
-# fs = fscore.f1score(gold, test)
+print("\n")
 
-# print(pre,rec,fs)
+print ("DbPedia:")
 
-from nltk.metrics.scores import (precision, recall,f_measure)
-import collections
-import nltk.metrics
+evaluation.evalues('dbpedia_en')
 
-reference = set(["die","eat","play","calc"])
-test = set(["walk","eat","play","calc", "make"])
+print("\n")
 
-p = precision(reference, test)
-r = recall(reference, test)
-f = f_measure(reference,test)
+print ("QALD3 train:")
 
-print(p,r,f)
+evaluation.evalues('qald_train')
+
+print("\n")
+print ("QALD3 test:")
+
+evaluation.evalues('qald_test')

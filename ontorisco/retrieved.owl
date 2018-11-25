@@ -13162,6 +13162,357 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#Agente_de_ameaça_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Agente_de_ameaça_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Agente de ameaça</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Banco_Central_do_Brasil_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Banco_Central_do_Brasil_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Banco Central do Brasil</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Banco_Central_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Banco_Central_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Banco Central</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Banco_do_Brasil_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Banco_do_Brasil_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Banco do Brasil</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Caixa_Econômica_Federal_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Caixa_Econômica_Federal_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Caixa Econômica Federal</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Comitê_Gestor_de_Risco_Financeiro_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Comitê_Gestor_de_Risco_Financeiro_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Comitê Gestor de Risco Financeiro</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Evento_inesperado_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Evento_inesperado_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Evento inesperado</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Falha_em_transação_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Falha_em_transação_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Falha em transação</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Fator_de_risco_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Fator_de_risco_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Fator de risco</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Gestão_de_Risco_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Gestão_de_Risco_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Gestão de Risco</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Grupo_de_resposta_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Grupo_de_resposta_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Grupo de resposta</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#ISO_3166_código_de_país_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#ISO_3166_código_de_país_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>ISO 3166 código de país</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#ISO_4217_moeda_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#ISO_4217_moeda_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>ISO 4217 moeda</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Infraestrutura_crítica_financeira_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Infraestrutura_crítica_financeira_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Infraestrutura crítica financeira</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Instituição_Governamental_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Instituição_Governamental_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Instituição Governamental</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Interrupção_de_operaçao_significativa_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Interrupção_de_operaçao_significativa_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Interrupção de operaçao significativa</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Líder_da_indústria_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Líder_da_indústria_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Líder da indústria</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Líderes_funcionais_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Líderes_funcionais_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Líderes funcionais</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Mitigação_do_risco_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Mitigação_do_risco_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Mitigação do risco</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Método_comportamental_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Método_comportamental_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Método comportamental</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Oferta_de_serviço_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Oferta_de_serviço_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Oferta de serviço</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Opções_de_tecnologia_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Opções_de_tecnologia_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Opções de tecnologia</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Parte_confiável_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Parte_confiável_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Parte confiável</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Participante_de_mercado_crítico_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Participante_de_mercado_crítico_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Participante de mercado crítico</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Pessoa_Abstrata_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Pessoa_Abstrata_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Pessoa Abstrata</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Pessoa_física_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Pessoa_física_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Pessoa física</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Pessoa_jurídica_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Pessoa_jurídica_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Pessoa jurídica</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Programa_de_computador_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Programa_de_computador_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Programa de computador</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_de_compensação_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_de_compensação_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco de compensação</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_de_contraparte_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_de_contraparte_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco de contraparte</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_de_crédito_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_de_crédito_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco de crédito</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_de_liquidez_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_de_liquidez_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco de liquidez</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_legal_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_legal_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco legal</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_operacional_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_operacional_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco operacional</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_político_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_político_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco político</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_principal_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_principal_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco principal</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_setorial_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_setorial_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco setorial</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_social_e_ambiental_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_social_e_ambiental_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco social e ambiental</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#Risco_técnico_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Risco_técnico_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Risco técnico</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#a_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#a_lex">
@@ -13269,6 +13620,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#agente_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#ameaça_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Agente_de_ameaça_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Threat_agent"/>
         <rdfs:label>Agente de ameaça</rdfs:label>
     </default1:NamedIndividual>
@@ -13739,6 +14091,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#brasil_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#central_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#do_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Banco_Central_do_Brasil_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Banco_Central_do_Brasil"/>
         <rdfs:label>Banco Central do Brasil</rdfs:label>
     </default1:NamedIndividual>
@@ -13751,6 +14104,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#banco_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#central_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Banco_Central_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Central_Bank"/>
         <rdfs:label>Banco Central</rdfs:label>
     </default1:NamedIndividual>
@@ -13764,6 +14118,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#banco_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#brasil_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#do_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Banco_do_Brasil_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Banco_do_Brasil"/>
         <rdfs:label>Banco do Brasil</rdfs:label>
     </default1:NamedIndividual>
@@ -13902,6 +14257,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#caixa_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#econômica_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#federal_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Caixa_Econômica_Federal_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Caixa_Econômica_Federal"/>
         <rdfs:label>Caixa Econômica Federal</rdfs:label>
     </default1:NamedIndividual>
@@ -14074,6 +14430,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#cidade_de_localização_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#cidade_de_localização_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>cidade de localização</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#cidade_de_localização_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#cidade_de_localização_lex">
@@ -14081,6 +14446,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#cidade_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#localização_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#cidade_de_localização_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#locationCity"/>
         <rdfs:label>cidade de localização</rdfs:label>
     </default1:NamedIndividual>
@@ -14212,6 +14578,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#financeiro_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#gestor_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Comitê_Gestor_de_Risco_Financeiro_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Comitê_Gestor_de_Risco_Financeiro"/>
         <rdfs:label>Comitê Gestor de Risco Financeiro</rdfs:label>
     </default1:NamedIndividual>
@@ -14418,12 +14785,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#conduz_a_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#conduz_a_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>conduz a</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#conduz_a_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#conduz_a_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#a_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#conduz_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#conduz_a_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#leadingTo"/>
         <rdfs:label>conduz a</rdfs:label>
     </default1:NamedIndividual>
@@ -14816,12 +15193,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#códigos_internacionais_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#códigos_internacionais_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>códigos internacionais</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#códigos_internacionais_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#códigos_internacionais_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#códigos_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#internacionais_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#códigos_internacionais_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#internationalCodes"/>
         <rdfs:label>códigos internacionais</rdfs:label>
     </default1:NamedIndividual>
@@ -14866,12 +15253,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#dados_institucionais_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#dados_institucionais_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>dados institucionais</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#dados_institucionais_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#dados_institucionais_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#dados_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#institucionais_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#dados_institucionais_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#institutionData"/>
         <rdfs:label>dados institucionais</rdfs:label>
     </default1:NamedIndividual>
@@ -14891,12 +15288,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#dados_pessoais_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#dados_pessoais_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>dados pessoais</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#dados_pessoais_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#dados_pessoais_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#dados_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pessoais_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#dados_pessoais_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#personData"/>
         <rdfs:label>dados pessoais</rdfs:label>
     </default1:NamedIndividual>
@@ -14964,6 +15371,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#data_de_fundação_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#data_de_fundação_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>data de fundação</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#data_de_fundação_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#data_de_fundação_lex">
@@ -14971,8 +15387,18 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#data_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#fundação_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#data_de_fundação_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#foundationDate"/>
         <rdfs:label>data de fundação</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#data_de_morte_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#data_de_morte_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>data de morte</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -14984,8 +15410,18 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#data_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#morte_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#data_de_morte_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#dateOfDeath"/>
         <rdfs:label>data de morte</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#data_de_nascimento_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#data_de_nascimento_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>data de nascimento</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -14997,6 +15433,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#data_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#nascimento_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#data_de_nascimento_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#dateOfBirth"/>
         <rdfs:label>data de nascimento</rdfs:label>
     </default1:NamedIndividual>
@@ -15217,12 +15654,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#descrição_resumida_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#descrição_resumida_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>descrição resumida</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#descrição_resumida_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#descrição_resumida_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#descrição_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#resumida_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#descrição_resumida_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#shortDescription"/>
         <rdfs:label>descrição resumida</rdfs:label>
     </default1:NamedIndividual>
@@ -15241,12 +15688,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#deseja_diminuir_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#deseja_diminuir_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>deseja diminuir</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#deseja_diminuir_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#deseja_diminuir_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#deseja_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#diminuir_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#deseja_diminuir_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#wishesToMinimize"/>
         <rdfs:label>deseja diminuir</rdfs:label>
     </default1:NamedIndividual>
@@ -15728,6 +16185,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#estar_ciente_de_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#estar_ciente_de_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>estar ciente de</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#estar_ciente_de_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#estar_ciente_de_lex">
@@ -15735,6 +16201,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#ciente_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#estar_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#estar_ciente_de_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#mayBeAwareOf"/>
         <rdfs:label>estar ciente de</rdfs:label>
     </default1:NamedIndividual>
@@ -16079,6 +16546,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#evento_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#inesperado_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Evento_inesperado_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Black_swan"/>
         <rdfs:label>Evento inesperado</rdfs:label>
     </default1:NamedIndividual>
@@ -16183,6 +16651,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#em_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#falha_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#transação_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Falha_em_transação_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Failed_transaction"/>
         <rdfs:label>Falha em transação</rdfs:label>
     </default1:NamedIndividual>
@@ -16273,6 +16742,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#fator_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Fator_de_risco_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Risk_factor"/>
         <rdfs:label>Fator de risco</rdfs:label>
     </default1:NamedIndividual>
@@ -16696,12 +17166,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#fundado_por_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#fundado_por_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>fundado por</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#fundado_por_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#fundado_por_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#fundado_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#por_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#fundado_por_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#foundedBy"/>
         <rdfs:label>fundado por</rdfs:label>
     </default1:NamedIndividual>
@@ -16892,6 +17372,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#gestão_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Gestão_de_Risco_form"/>
         <ontolex:denotes rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Gestão de Risco</rdfs:label>
     </default1:NamedIndividual>
@@ -17007,6 +17488,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#grupo_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#resposta_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Grupo_de_resposta_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Response_team"/>
         <rdfs:label>Grupo de resposta</rdfs:label>
     </default1:NamedIndividual>
@@ -17820,6 +18302,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#crítica_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#financeira_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#infraestrutura_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Infraestrutura_crítica_financeira_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Critical_financial_infraestructure"/>
         <rdfs:label>Infraestrutura crítica financeira</rdfs:label>
     </default1:NamedIndividual>
@@ -17960,6 +18443,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#governamental_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#instituição_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Instituição_Governamental_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Instituição_governamental"/>
         <rdfs:label>Instituição Governamental</rdfs:label>
     </default1:NamedIndividual>
@@ -18038,6 +18522,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#interrupção_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#operaçao_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#significativa_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Interrupção_de_operaçao_significativa_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Major_operational_disruption"/>
         <rdfs:label>Interrupção de operaçao significativa</rdfs:label>
     </default1:NamedIndividual>
@@ -18091,6 +18576,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#iso_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#país_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#3166_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#ISO_3166_código_de_país_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#ISO3166_CountryCodes"/>
         <rdfs:label>ISO 3166 código de país</rdfs:label>
     </default1:NamedIndividual>
@@ -18104,6 +18590,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#iso_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#moeda_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#4217_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#ISO_4217_moeda_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#ISOCurrency"/>
         <rdfs:label>ISO 4217 moeda</rdfs:label>
     </default1:NamedIndividual>
@@ -18325,6 +18812,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#local_de_morte_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#local_de_morte_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>local de morte</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#local_de_morte_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#local_de_morte_lex">
@@ -18332,8 +18828,18 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#local_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#morte_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#local_de_morte_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#local_de_morte"/>
         <rdfs:label>local de morte</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#local_de_nascimento_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#local_de_nascimento_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>local de nascimento</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -18345,6 +18851,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#local_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#nascimento_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#local_de_nascimento_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#placeOfBirth"/>
         <rdfs:label>local de nascimento</rdfs:label>
     </default1:NamedIndividual>
@@ -18377,6 +18884,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#localidade_de_atuação_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#localidade_de_atuação_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>localidade de atuação</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#localidade_de_atuação_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#localidade_de_atuação_lex">
@@ -18384,6 +18900,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#atuação_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#localidade_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#localidade_de_atuação_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#areaServed"/>
         <rdfs:label>localidade de atuação</rdfs:label>
     </default1:NamedIndividual>
@@ -18480,6 +18997,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#lugar_de_fundação_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#lugar_de_fundação_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>lugar de fundação</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#lugar_de_fundação_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#lugar_de_fundação_lex">
@@ -18487,6 +19013,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#fundação_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#lugar_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#lugar_de_fundação_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#foundationPlace"/>
         <rdfs:label>lugar de fundação</rdfs:label>
     </default1:NamedIndividual>
@@ -18538,6 +19065,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#da_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#indústria_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#líder_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Líder_da_indústria_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Industry_leader"/>
         <rdfs:label>Líder da indústria</rdfs:label>
     </default1:NamedIndividual>
@@ -18575,6 +19103,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#funcionais_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#líderes_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Líderes_funcionais_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Functional_leaders"/>
         <rdfs:label>Líderes funcionais</rdfs:label>
     </default1:NamedIndividual>
@@ -18683,12 +19212,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#materializar_como_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#materializar_como_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>materializar como</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#materializar_como_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#materializar_como_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#como_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#materializar_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#materializar_como_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#materializeAs"/>
         <rdfs:label>materializar como</rdfs:label>
     </default1:NamedIndividual>
@@ -18763,6 +19302,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#do_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#mitigação_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Mitigação_do_risco_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Risk_mitigation"/>
         <rdfs:label>Mitigação do risco</rdfs:label>
     </default1:NamedIndividual>
@@ -18956,6 +19496,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#comportamental_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#método_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Método_comportamental_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Behavioral_method"/>
         <rdfs:label>Método comportamental</rdfs:label>
     </default1:NamedIndividual>
@@ -19104,6 +19645,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#número_de_empregados_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#número_de_empregados_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>número de empregados</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#número_de_empregados_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#número_de_empregados_lex">
@@ -19111,8 +19661,18 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#empregados_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#número_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#número_de_empregados_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#numEmployees"/>
         <rdfs:label>número de empregados</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#número_de_localidades_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#número_de_localidades_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>número de localidades</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -19124,6 +19684,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#localidades_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#número_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#número_de_localidades_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#numberOfLocations"/>
         <rdfs:label>número de localidades</rdfs:label>
     </default1:NamedIndividual>
@@ -19187,6 +19748,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#oferta_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#serviço_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Oferta_de_serviço_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Service_offering"/>
         <rdfs:label>Oferta de serviço</rdfs:label>
     </default1:NamedIndividual>
@@ -19313,6 +19875,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#opções_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#tecnologia_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Opções_de_tecnologia_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Technology_options"/>
         <rdfs:label>Opções de tecnologia</rdfs:label>
     </default1:NamedIndividual>
@@ -19406,12 +19969,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#para_reduzir_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#para_reduzir_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>para reduzir</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#para_reduzir_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#para_reduzir_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#para_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#reduzir_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#para_reduzir_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#toReduce"/>
         <rdfs:label>para reduzir</rdfs:label>
     </default1:NamedIndividual>
@@ -19424,6 +19997,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#confiável_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#parte_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Parte_confiável_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Relying_party"/>
         <rdfs:label>Parte confiável</rdfs:label>
     </default1:NamedIndividual>
@@ -19476,6 +20050,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#mercado_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#participante_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Participante_de_mercado_crítico_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Crititical_market_participant"/>
         <rdfs:label>Participante de mercado crítico</rdfs:label>
     </default1:NamedIndividual>
@@ -19708,6 +20283,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#abstrata_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pessoa_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Pessoa_Abstrata_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#&apos;Pessoa_abstrata&apos;"/>
         <rdfs:label>Pessoa Abstrata</rdfs:label>
     </default1:NamedIndividual>
@@ -19732,6 +20308,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#física_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pessoa_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Pessoa_física_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Person"/>
         <rdfs:label>Pessoa física</rdfs:label>
     </default1:NamedIndividual>
@@ -19744,6 +20321,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#jurídica_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pessoa_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Pessoa_jurídica_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#business"/>
         <rdfs:label>Pessoa jurídica</rdfs:label>
     </default1:NamedIndividual>
@@ -19829,6 +20407,15 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#pode_causar_danos_a_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_causar_danos_a_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>pode causar danos a</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#pode_causar_danos_a_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_causar_danos_a_lex">
@@ -19837,8 +20424,18 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#causar_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#danos_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pode_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#pode_causar_danos_a_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#pode_causar_danos_a"/>
         <rdfs:label>pode causar danos a</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#pode_danificar_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_danificar_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>pode danificar</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -19849,6 +20446,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#danificar_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pode_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#pode_danificar_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#mayDamage"/>
         <rdfs:label>pode danificar</rdfs:label>
     </default1:NamedIndividual>
@@ -19905,14 +20503,33 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#pode_possuir_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_possuir_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>pode possuir</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#pode_possuir_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_possuir_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#pode_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#possuir_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#pode_possuir_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#thatMayPosess"/>
         <rdfs:label>pode possuir</rdfs:label>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#pode_ser_reduzido_por_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#pode_ser_reduzido_por_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>pode ser reduzido por</ontolex:writtenRep>
     </default1:NamedIndividual>
     
 
@@ -19925,6 +20542,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#por_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#reduzido_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#ser_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#pode_ser_reduzido_por_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#thatMayBeReducedBy"/>
         <rdfs:label>pode ser reduzido por</rdfs:label>
     </default1:NamedIndividual>
@@ -20422,6 +21040,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#computador_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#programa_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Programa_de_computador_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Programa_de_computador"/>
         <rdfs:label>Programa de computador</rdfs:label>
     </default1:NamedIndividual>
@@ -20727,12 +21346,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#receita_líquida_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#receita_líquida_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>receita líquida</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#receita_líquida_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#receita_líquida_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#líquida_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#receita_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#receita_líquida_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#netIncome"/>
         <rdfs:label>receita líquida</rdfs:label>
     </default1:NamedIndividual>
@@ -21078,6 +21707,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#compensação_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_de_compensação_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Settlement_risk"/>
         <rdfs:label>Risco de compensação</rdfs:label>
     </default1:NamedIndividual>
@@ -21091,6 +21721,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#contraparte_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_de_contraparte_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Counterparty_risk"/>
         <rdfs:label>Risco de contraparte</rdfs:label>
     </default1:NamedIndividual>
@@ -21104,6 +21735,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#crédito_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_de_crédito_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Credit_risk"/>
         <rdfs:label>Risco de crédito</rdfs:label>
     </default1:NamedIndividual>
@@ -21117,6 +21749,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#de_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#liquidez_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_de_liquidez_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Liquidity_risk"/>
         <rdfs:label>Risco de liquidez</rdfs:label>
     </default1:NamedIndividual>
@@ -21141,6 +21774,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#legal_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_legal_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Legal_risk"/>
         <rdfs:label>Risco legal</rdfs:label>
     </default1:NamedIndividual>
@@ -21171,6 +21805,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#operacional_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_operacional_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Operational_risk"/>
         <rdfs:label>Risco operacional</rdfs:label>
     </default1:NamedIndividual>
@@ -21183,6 +21818,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#político_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_político_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Political_risk"/>
         <rdfs:label>Risco político</rdfs:label>
     </default1:NamedIndividual>
@@ -21195,6 +21831,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#principal_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_principal_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Principal_risk"/>
         <rdfs:label>Risco principal</rdfs:label>
     </default1:NamedIndividual>
@@ -21207,6 +21844,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#setorial_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_setorial_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Sectorial_risk"/>
         <rdfs:label>Risco setorial</rdfs:label>
     </default1:NamedIndividual>
@@ -21221,6 +21859,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#e_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#social_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_social_e_ambiental_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Environmental_and_social_risk"/>
         <rdfs:label>Risco social e ambiental</rdfs:label>
     </default1:NamedIndividual>
@@ -21233,6 +21872,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#risco_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#técnico_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Risco_técnico_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Technical_risk"/>
         <rdfs:label>Risco técnico</rdfs:label>
     </default1:NamedIndividual>
@@ -21973,12 +22613,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#tem_endereço_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#tem_endereço_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>tem endereço</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#tem_endereço_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#tem_endereço_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#endereço_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#tem_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#tem_endereço_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#hasAddress"/>
         <rdfs:label>tem endereço</rdfs:label>
     </default1:NamedIndividual>
@@ -22035,12 +22685,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#tem_nome_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#tem_nome_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>tem nome</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#tem_nome_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#tem_nome_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#nome_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#tem_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#tem_nome_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#hasName"/>
         <rdfs:label>tem nome</rdfs:label>
     </default1:NamedIndividual>
@@ -22548,6 +23208,24 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#Órgão_Regulador_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#Órgão_Regulador_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>Órgão Regulador</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/lemon/ontolex#é_conduzido_por_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#é_conduzido_por_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>é conduzido por</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#é_conduzido_por_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#é_conduzido_por_lex">
@@ -22555,6 +23233,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#conduzido_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#por_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#é_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#é_conduzido_por_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#isConductedBy"/>
         <rdfs:label>é conduzido por</rdfs:label>
     </default1:NamedIndividual>
@@ -22656,6 +23335,7 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#regulador_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#órgão_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#Órgão_Regulador_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#Regulator"/>
         <rdfs:label>Órgão Regulador</rdfs:label>
     </default1:NamedIndividual>
@@ -22737,12 +23417,22 @@ Note: moved to lexeme element from being an independent element; note that this 
     
 
 
+    <!-- http://www.w3.org/ns/lemon/ontolex#http://www.semanticweb.org/ontologies/2014/8/risk_management_form -->
+
+    <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#http://www.semanticweb.org/ontologies/2014/8/risk_management_form">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep>http://www.semanticweb.org/ontologies/2014/8/risk management</ontolex:writtenRep>
+    </default1:NamedIndividual>
+    
+
+
     <!-- http://www.w3.org/ns/lemon/ontolex#http://www.semanticweb.org/ontologies/2014/8/risk_management_lex -->
 
     <default1:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex#http://www.semanticweb.org/ontologies/2014/8/risk_management_lex">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiWordExpression"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#management_comp"/>
         <decomp:constituent rdf:resource="http://www.w3.org/ns/lemon/decomp#http://www.semanticweb.org/ontologies/2014/8/risk_comp"/>
+        <ontolex:canonicalForm rdf:resource="http://www.w3.org/ns/lemon/ontolex#http://www.semanticweb.org/ontologies/2014/8/risk_management_form"/>
         <ontolex:denotes rdf:resource="http://www.semanticweb.org/ontologies/2014/8/risk_management#&apos;Agente_de_defesa&apos;"/>
         <rdfs:label>http://www.semanticweb.org/ontologies/2014/8/risk management</rdfs:label>
     </default1:NamedIndividual>
@@ -22758,19 +23448,19 @@ Note: moved to lexeme element from being an independent element; note that this 
      -->
 
     <rdf:Description rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#mood">
-        <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-366"/>
         <default1:versionInfo>1:0</default1:versionInfo>
+        <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-366"/>
         <rdfs:comment>In TEI: contains information about the grammatical mood of verbs (e.g. indicative, subjunctive, imperative).</rdfs:comment>
-        <rdfs:label>mood</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo"/>
+        <rdfs:label>mood</rdfs:label>
         <dc1:creator>Wright, Sue Ellen</dc1:creator>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#number">
         <rdfs:isDefinedBy rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo"/>
         <rdfs:comment>In many languages, the grammatical distinction that indicates the number of objects referred to by the term or word.</rdfs:comment>
         <rdfs:comment>Grammatical category for the variation in form of nouns, pronouns, and any words agreeing with them, depending on how many persons or things are referred to.</rdfs:comment>
-        <rdfs:label>grammatical number</rdfs:label>
         <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1298"/>
+        <rdfs:label>grammatical number</rdfs:label>
         <dc1:creator>Wright, Sue Ellen</dc1:creator>
         <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-251"/>
         <dc1:creator>Francopoulo, Gil</dc1:creator>
@@ -22785,8 +23475,8 @@ Note: moved to lexeme element from being an independent element; note that this 
         <rdfs:label>person</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.lexinfo.net/ontology/2.0/lexinfo#tense">
-        <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1286"/>
         <default1:versionInfo>1:0</default1:versionInfo>
+        <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1286"/>
         <rdfs:comment>Property referring to the way the grammar marks the time at which the action denoted by the verb took place.</rdfs:comment>
         <rdfs:label>tense</rdfs:label>
         <dc1:creator>Francopoulo, Gil</dc1:creator>
